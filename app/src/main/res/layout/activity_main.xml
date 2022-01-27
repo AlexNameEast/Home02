@@ -17,7 +17,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_one"
             android:textSize="30sp" />
 
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_two"
             android:textSize="30sp" />
 
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_columnSpan="1"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_three"
             android:textSize="30sp" />
 
@@ -53,7 +53,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_four"
             android:textSize="30sp" />
 
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_five"
             android:textSize="30sp" />
 
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_six"
             android:textSize="30sp" />
 
@@ -85,7 +85,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_seven"
             android:textSize="30sp" />
 
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_eight"
             android:textSize="30sp" />
 
@@ -101,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_nine"
             android:textSize="30sp" />
 
@@ -128,7 +128,7 @@
             android:layout_columnSpan="2"
             android:layout_gravity="fill"
             android:layout_marginStart="5dp"
-            android:backgroundTint="#827d7d"
+            android:backgroundTint="@color/gray"
             android:text="@string/key_zero"
             android:textSize="30sp" />
 
@@ -169,6 +169,8 @@
             android:text="@string/value"
             android:textColor="@color/black"
             android:textSize="30sp" />
+
+
 
 
     </GridLayout>
