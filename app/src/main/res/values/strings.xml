@@ -17,4 +17,5 @@
     <string name="key_multi">*</string>
     <string name="separation">/</string>
     <string name="reset">CE</string>
+    <string name="zero">0.0</string>
 </resources>

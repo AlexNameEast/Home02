@@ -7,11 +7,7 @@
     android:background="@drawable/photo">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="55dp"
-        android:text="500"/>
+
 
     <GridLayout
         android:layout_width="wrap_content"
@@ -19,6 +15,7 @@
         android:layout_gravity="center"
         android:columnCount="4"
         tools:context=".MainActivity">
+
 
 
         <Button
@@ -195,6 +192,16 @@
             android:text="@string/value"
             android:textColor="@color/black"
             android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:textSize="55sp"
+            android:textColor="@color/white"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill"/>
 
 
 
