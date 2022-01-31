@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home02</string>
+    <string name="value">=</string>
+    <string name="key_one">I</string>
+    <string name="key_two">II</string>
+    <string name="key_three">III</string>
+    <string name="key_four">IV</string>
+    <string name="key_five">V</string>
+    <string name="key_six">VI</string>
+    <string name="key_plus">+</string>
+    <string name="key_seven">VII</string>
+    <string name="key_eight">VIII</string>
+    <string name="key_nine">9</string>
+    <string name="key_minis">-</string>
+    <string name="key_point">.</string>
+    <string name="key_zero">0</string>
+    <string name="key_multi">*</string>
+    <string name="separation">/</string>
+    <string name="reset">CE</string>
+</resources>
