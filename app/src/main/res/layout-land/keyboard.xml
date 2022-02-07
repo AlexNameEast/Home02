@@ -5,7 +5,6 @@
     tools:showIn="@layout/activity_calculator">
 
 
-
     <Button
         android:id="@+id/key_1"
         android:layout_width="wrap_content"
@@ -29,8 +28,6 @@
         android:backgroundTint="@color/gray"
         android:text="@string/key_three"
         android:textSize="@dimen/size_button" />
-
-
 
 
     <Button
@@ -57,7 +54,6 @@
         android:backgroundTint="@color/gray"
         android:text="@string/key_six"
         android:textSize="@dimen/size_button" />
-
 
 
     <Button
@@ -159,10 +155,6 @@
         android:text="@string/value"
         android:textColor="@color/black"
         android:textSize="@dimen/size_button" />
-
-
-
-
 
 
 </merge>

@@ -187,22 +187,17 @@ public class CalculatorActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (!flag) {
                     Float x;
-                    if (sign.equals("+")){
+                    if (sign.equals("+")) {
                         x = Float.parseFloat(intermediateValue02) + Float.parseFloat(intermediateValue);
-                    }
-                    else if (sign.equals("-")){
+                    } else if (sign.equals("-")) {
                         x = Float.parseFloat(intermediateValue02) - Float.parseFloat(intermediateValue);
-                    }
-                    else if (sign.equals("*")){
+                    } else if (sign.equals("*")) {
                         x = Float.parseFloat(intermediateValue02) * Float.parseFloat(intermediateValue);
-                    }
-                    else if (sign.equals("/")){
+                    } else if (sign.equals("/")) {
                         x = Float.parseFloat(intermediateValue02) / Float.parseFloat(intermediateValue);
-                    }
-                    else x=0.0f;
+                    } else x = 0.0f;
 
 
-                    
                     intermediateValue = x.toString();
                     textResult.setText(String.format(Locale.getDefault(), "%s", intermediateValue));
                     flag = true;

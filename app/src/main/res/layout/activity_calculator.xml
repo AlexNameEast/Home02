@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="horizontal"
-    android:background="@drawable/photo">
+    android:background="@drawable/photo"
+    android:orientation="horizontal">
 
     <TextView
         android:id="@+id/result"
@@ -14,11 +14,11 @@
         android:layout_height="wrap_content"
         android:gravity="end"
         android:text="@string/zero"
-        android:textSize="@dimen/size_result"
         android:textColor="@color/white"
-        app:layout_constraintStart_toStartOf="@+id/keyboard"
+        android:textSize="@dimen/size_result"
+        app:layout_constraintBottom_toTopOf="@id/keyboard"
         app:layout_constraintEnd_toEndOf="@id/keyboard"
-        app:layout_constraintBottom_toTopOf="@id/keyboard"/>
+        app:layout_constraintStart_toStartOf="@+id/keyboard" />
 
 
     <GridLayout
@@ -28,17 +28,12 @@
         android:layout_gravity="center_horizontal|bottom"
         android:columnCount="@integer/column_count"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:context=".MainActivity">
 
 
-<include
-    layout="@layout/keyboard"/>
-
-
-
-
+        <include layout="@layout/keyboard" />
 
 
     </GridLayout>
