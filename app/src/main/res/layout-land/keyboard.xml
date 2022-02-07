@@ -5,137 +5,132 @@
     tools:showIn="@layout/activity_calculator">
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_one"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_two"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_three"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_four"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_five"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
-
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_six"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_seven"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
-        android:text="@string/key_eight"
-        android:textSize="@dimen/size_button" />
+        android:text="@string/key_eight" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_nine"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_0"
         android:layout_width="wrap_content"
-        android:backgroundTint="@color/gray"
         android:text="@string/key_zero"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_dot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#adadad"
         android:text="@string/key_point"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
-
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_minus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3fd134"
+        style="@style/CalcButton.Action"
         android:text="@string/key_minis"
-        android:textColor="@color/black"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"/>
 
-    <Button
-        android:id="@+id/key_multip"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/key_multiply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3fd134"
         android:text="@string/key_multi"
-        android:textColor="@color/black"
-        android:textSize="@dimen/size_button" />
+        style="@style/CalcButton.Action"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_separator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3fd134"
         android:text="@string/separation"
-        android:textColor="@color/black"
-        android:textSize="@dimen/size_button" />
+        style="@style/CalcButton.Action"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin" />
 
-    <Button
-
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#3fd134"
+        style="@style/CalcButton.Action"
         android:text="@string/key_plus"
-        android:textColor="@color/black"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_ce"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -143,9 +138,10 @@
         android:layout_gravity="fill"
         android:backgroundTint="#a63535"
         android:text="@string/reset"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -154,7 +150,8 @@
         android:backgroundTint="#adadad"
         android:text="@string/value"
         android:textColor="@color/black"
-        android:textSize="@dimen/size_button" />
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"/>
 
 
 </merge>

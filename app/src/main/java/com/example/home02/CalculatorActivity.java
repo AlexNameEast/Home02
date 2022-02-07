@@ -2,10 +2,16 @@ package com.example.home02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.home02.domain.Theme;
+import com.example.home02.storage.ThemeStorage;
 
 import java.util.Locale;
 
@@ -21,7 +27,40 @@ public class CalculatorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+        ThemeStorage storage = new ThemeStorage(this);
+        setTheme(storage.getTheme().getStyle());
+
         setContentView(R.layout.activity_calculator);
+
+
+
+
+
+        findViewById(R.id.theme_one).setOnClickListener(view -> {
+            storage.saveTheme(Theme.ONE);
+            recreate();
+        });
+
+        findViewById(R.id.theme_two).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                storage.saveTheme(Theme.TWO);
+                recreate();
+            }
+        });
+
+        findViewById(R.id.theme_tree).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                storage.saveTheme(Theme.TREE);
+                recreate();
+            }
+        });
+
+
+
 
 
         textResult = findViewById(R.id.result);

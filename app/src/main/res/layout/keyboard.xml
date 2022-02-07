@@ -4,105 +4,116 @@
     tools:showIn="@layout/activity_calculator">
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_1"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_one" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_2"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_two" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_3"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_three" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_separator"
-        style="@style/CalcButtonAction"
+        style="@style/CalcButton.Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/separation" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_4"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_four" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_5"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_five" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
 
         android:id="@+id/key_6"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_six" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
 
         android:id="@+id/key_plus"
-        style="@style/CalcButtonAction"
+        style="@style/CalcButton.Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_plus" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_7"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_seven" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_8"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_eight" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_9"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_nine" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
 
         android:id="@+id/key_minus"
-        style="@style/CalcButtonAction"
+        style="@style/CalcButton.Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_minis" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_dot"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_point" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_0"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_column="1"
         android:layout_columnSpan="2"
@@ -110,16 +121,17 @@
         android:text="@string/key_zero" />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_multiply"
-        style="@style/CalcButtonAction"
+        style="@style/CalcButton.Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/key_multi" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_ce"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
@@ -127,9 +139,10 @@
         android:backgroundTint="#a63535"
         android:text="@string/reset" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_value"
-        style="@style/CalcButton"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
