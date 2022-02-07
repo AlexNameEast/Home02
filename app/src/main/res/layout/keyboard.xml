@@ -6,26 +6,26 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_1"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_one" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_2"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_two" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_3"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_three" />
 
 
@@ -39,27 +39,27 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_4"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_four" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_5"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_five" />
 
     <com.google.android.material.button.MaterialButton
 
         android:id="@+id/key_6"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_six" />
 
     <com.google.android.material.button.MaterialButton
@@ -72,26 +72,26 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_7"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_seven" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_8"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_eight" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_9"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_nine" />
 
     <com.google.android.material.button.MaterialButton
@@ -104,20 +104,20 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_dot"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_point" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_0"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_column="1"
         android:layout_columnSpan="2"
         android:layout_gravity="fill"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:text="@string/key_zero" />
 
 
@@ -130,23 +130,23 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_ce"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_gravity="fill"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:backgroundTint="#a63535"
         android:text="@string/reset" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/key_value"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginEnd="@dimen/small_margin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
         android:layout_gravity="fill"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
         android:backgroundTint="#adadad"
         android:text="@string/value"
         android:textColor="@color/black" />

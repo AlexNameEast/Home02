@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="CalcButton" parent="Widget.MaterialComponents.Button">
         <item name="android:layout_marginStart">@dimen/small_margin</item>
         <item name="android:layout_marginEnd">@dimen/small_margin</item>
@@ -8,17 +9,17 @@
         <item name="android:textSize">@dimen/size_button</item>
     </style>
 
-    <style name="CalcButton.Action" >
+    <style name="CalcButton.Action">
         <item name="android:backgroundTint">@color/color_functional_button</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="CalcButton.V2" >
+    <style name="CalcButton.V2">
         <item name="android:backgroundTint">@android:color/holo_red_dark</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="CalcButton.V3" >
+    <style name="CalcButton.V3">
         <item name="android:backgroundTint">@android:color/holo_green_dark</item>
         <item name="android:textColor">@color/black</item>
     </style>
