@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_calculator">
+
+
+    <Button
+        android:id="@+id/key_1"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_one" />
+
+    <Button
+        android:id="@+id/key_2"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_two" />
+
+    <Button
+        android:id="@+id/key_3"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_three" />
+
+
+    <Button
+        android:id="@+id/key_separator"
+        style="@style/CalcButtonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/separation" />
+
+
+    <Button
+        android:id="@+id/key_4"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_four" />
+
+    <Button
+        android:id="@+id/key_5"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_five" />
+
+    <Button
+
+        android:id="@+id/key_6"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_six" />
+
+    <Button
+
+        android:id="@+id/key_plus"
+        style="@style/CalcButtonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_plus" />
+
+    <Button
+        android:id="@+id/key_7"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_seven" />
+
+    <Button
+        android:id="@+id/key_8"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_eight" />
+
+    <Button
+        android:id="@+id/key_9"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_nine" />
+
+    <Button
+
+        android:id="@+id/key_minus"
+        style="@style/CalcButtonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_minis" />
+
+    <Button
+        android:id="@+id/key_dot"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_point" />
+
+    <Button
+        android:id="@+id/key_0"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="@string/key_zero" />
+
+
+    <Button
+        android:id="@+id/key_multiply"
+        style="@style/CalcButtonAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/key_multi" />
+
+    <Button
+        android:id="@+id/key_ce"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:backgroundTint="#a63535"
+        android:text="@string/reset" />
+
+    <Button
+        android:id="@+id/key_value"
+        style="@style/CalcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:backgroundTint="#adadad"
+        android:text="@string/value"
+        android:textColor="@color/black" />
+
+
+</merge>

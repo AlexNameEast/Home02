@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcButton">
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="layout_goneMarginEnd">@dimen/small_margin</item>
+        <item name="backgroundTint">@color/gray</item>
+        <item name="fontFamily">@font/stoicheion_font</item>
+        <item name="android:textSize">@dimen/size_button</item>
+    </style>
+
+    <style name="CalcButtonAction" parent="CalcButton">
+        <item name="android:backgroundTint">@color/color_functional_button</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
