@@ -139,8 +139,8 @@ public class CalculatorActivity extends AppCompatActivity {
             }
         });
 
-        Button buttonMultip = findViewById(R.id.key_multip);
-        buttonMultip.setOnClickListener(new View.OnClickListener() {
+        Button buttonMultiply = findViewById(R.id.key_multiply);
+        buttonMultiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (flag) {
