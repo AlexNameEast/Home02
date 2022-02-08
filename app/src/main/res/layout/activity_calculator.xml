@@ -43,7 +43,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:text="@string/zero"
+        tools:text="@string/zero"
         android:textColor="@color/white"
         android:textSize="@dimen/size_result"
         app:layout_constraintBottom_toTopOf="@id/keyboard"
