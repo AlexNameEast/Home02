@@ -18,7 +18,8 @@
     <string name="separation">/</string>
     <string name="reset">CE</string>
     <string name="zero">0.0</string>
-    <string name="theme_one">t 1</string>
-    <string name="theme_two">t 2</string>
-    <string name="theme_tree">t 3</string>
+    <string name="theme_one">Theme 1</string>
+    <string name="theme_two">Theme 2</string>
+    <string name="theme_tree">Theme 3</string>
+    <string name="theme_choose">Theme</string>
 </resources>

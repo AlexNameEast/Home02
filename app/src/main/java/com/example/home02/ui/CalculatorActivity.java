@@ -1,9 +1,15 @@
 package com.example.home02.ui;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContract;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -35,8 +41,22 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         ThemeStorage storage = new ThemeStorage(this);
+
+        ActivityResultLauncher<Intent> settingLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
+            @Override
+            public void onActivityResult(ActivityResult result) {
+
+                if(result.getResultCode() == Activity.RESULT_OK)
+                {
+                    Theme theme = (Theme) result.getData().getSerializableExtra(SelectThemeActivity.THEME_RESULT);
+
+                    storage.saveTheme(theme);
+                    recreate();
+                }
+            }
+        });
+
         setTheme(storage.getTheme().getStyle());
 
         setContentView(R.layout.activity_calculator);
@@ -46,25 +66,8 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
         textResult = findViewById(R.id.result);
 
 
-        findViewById(R.id.theme_one).setOnClickListener(view -> {
-            storage.saveTheme(Theme.ONE);
-            recreate();
-        });
-
-        findViewById(R.id.theme_two).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                storage.saveTheme(Theme.TWO);
-                recreate();
-            }
-        });
-
-        findViewById(R.id.theme_tree).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                storage.saveTheme(Theme.TREE);
-                recreate();
-            }
+        findViewById(R.id.setting).setOnClickListener(view -> {
+            settingLauncher.launch(SelectThemeActivity.intent(CalculatorActivity.this, storage.getTheme()));
         });
 
 
