@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_button">30sp</dimen>
+    <dimen name="size_result">55sp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="margin">20dp</dimen>
+</resources>
